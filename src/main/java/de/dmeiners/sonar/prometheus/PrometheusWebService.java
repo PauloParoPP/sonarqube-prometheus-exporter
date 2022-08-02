@@ -36,6 +36,7 @@ public class PrometheusWebService implements WebService {
 
         SUPPORTED_METRICS.add(CoreMetrics.BUGS);
         SUPPORTED_METRICS.add(CoreMetrics.VULNERABILITIES);
+        SUPPORTED_METRICS.add(CoreMetrics.SECURITY_HOTSPOTS);
         SUPPORTED_METRICS.add(CoreMetrics.CODE_SMELLS);
         SUPPORTED_METRICS.add(CoreMetrics.COVERAGE);
         SUPPORTED_METRICS.add(CoreMetrics.TECHNICAL_DEBT);
